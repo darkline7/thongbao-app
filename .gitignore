@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Environment variables — KHÔNG commit file này!
+.env
+
+# HAR captures (có thể chứa token nhạy cảm)
+*.har
+
+# Game data captures
+gate-startup.json
+gate-capture.json
+
+# Build output
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
